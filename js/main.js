@@ -10,3 +10,15 @@ for (let i = 1; i <= 4; i++) {
     newBox.textContent = i; // Numéro écrit dans le bloc
     board.appendChild(newBox);
 }
+
+
+let newCarre = document.querySelectorAll(".carree")
+
+newCarre.forEach(function(carree){
+    // console.log(newCarre)
+    
+    carree.addEventListener("click", function(){
+        carree.classList.toggle("click")
+        console.log(carree)
+    })
+})

@@ -17,3 +17,9 @@
     font-size: 40px;
     transition: 1s;
 }
+
+.carree.click{
+    background-color: rgba(207, 99, 99, 0.623);
+    transform: scale(0.9) rotate(360deg);
+
+}
